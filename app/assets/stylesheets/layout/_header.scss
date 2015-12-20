@@ -1,0 +1,36 @@
+.container{
+	position: relative;
+}
+.header {	
+    width: 100%;
+    line-height: 100px;
+    a {
+    	color: black;
+    	text-decoration: none;
+    	&:hover {
+    		color: red;
+    	}
+    }
+    ul {
+    	margin-left: 170px;
+    }
+    li {
+	padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 500px
+    }
+}
+.name {
+    text-align: right;
+    position: absolute;
+    right: 98px;
+    bottom: 60px;
+
+    h1 {
+    font-size: 18px;
+    line-height: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+}
