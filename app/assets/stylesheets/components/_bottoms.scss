@@ -1,0 +1,26 @@
+.btn-blue {
+	padding: 5px;
+    border-radius: 3px;
+    color: white;
+    background: $brand-color-blue;
+    font-size: 18px;
+    text-decoration: underline;
+    transition: all .3s ease;
+    text-shadow: 1px 1px 1px rgba(70, 146, 224, .5);
+    &:hover {
+        font-size: 33px;
+    	color: $brand-color-blue;
+    	background: transparent;
+    	transition: all .4s ease;
+        text-decoration: none;
+    }
+}
+.right {
+    position: absolute;
+    right: 90px;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
