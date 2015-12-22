@@ -20,7 +20,7 @@
     	text-decoration: none;
     	//text-align: right;
     	font-family: Indie Flower;
-    	font-size: 34px;
+    	font-size: 28px;
     	font-weight: 600;
     	//text-decoration: overline;
     }
@@ -31,10 +31,11 @@
 }
 .hightlight {
 	color: $brand-color-blue;
-	text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+	text-shadow: 2px 2px 2px rgba(147, 5, 24, 1);
 	font-family: Indie Flower;
-	font-size: 40px;
-	//text-shadow: 1px 1px 1px rgba(255, 255, 255, .9);
+	font-size: 34px;
+	//background: white;
+	padding: 5px;
 }
 
 
