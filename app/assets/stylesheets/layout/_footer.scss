@@ -2,12 +2,13 @@
 	width: 100%;
 	text-align: right;
     position: absolute;
+    bottom: 0;
     margin: 0px;
     .row {
-    	margin-right: 100px;
+    margin-right: 180px;
+    margin-top: 10px;
     }
     p {
-    	padding-top: 10px;
     	margin-right: 10px;
     	font-family: Indie Flower;
     }
@@ -24,7 +25,7 @@
     	&:hover {
 			color: $brand-color-blue;
 			//text-decoration: overline;
-			font-size: 23px;
+			//font-size: 23px;
 			border-radius: 2px;
 			transition: all .5s ease;
 			text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
