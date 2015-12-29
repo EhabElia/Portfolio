@@ -1,26 +1,32 @@
 .btn-blue {
-	padding: 5px;
+    padding: 5px;
     border-radius: 3px;
     color: white;
     background: $brand-color-blue;
-    font-size: 18px;
-    text-decoration: underline;
-    transition: all .3s ease;
-    text-shadow: 1px 1px 1px rgba(70, 146, 224, .5);
+    transition: all .4s ease;
+    font-size: 24px;
+    //text-shadow: 1px 1px 1px rgba(70, 146, 224, .5);
     &:hover {
-        font-size: 23px;
+        font-size: 22px;
     	color: $brand-color-blue;
     	background: white;
-    	transition: all .4s ease;
+    	transition: all .7s ease;
         text-decoration: none;
+    }
+    &:focus {
+        font-size: 23px;
+        color: $brand-color-blue;
+        background: white;
+        transition: all .7s ease;
+        text-decoration: none;        
     }
 }
 .right {
     position: absolute;
-    right: 90px;
+    right: 200px;
 }
 
-.center {
-    margin-right: auto;
-    margin-left: auto;
+.Center {
+   margin: 0 auto ;
+   width: 100px ;
 }

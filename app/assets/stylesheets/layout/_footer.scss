@@ -1,20 +1,14 @@
 .footer {
 	width: 100%;
-	text-align: right;
-    position: absolute;
     bottom: 0;
-    margin: 0px;
     background: white;
-    .row {
-    margin-right: 180px;
-    margin-top: 20px;
-    }
+    text-align: right;
     p {
-    	margin-right: 10px;
     	font-family: Indie Flower;
+        padding-right: 10px;
     }
     ul {
-    	margin: 0px;
+    	margin-left: 0px;
     	font-size: 24px;
     }
     li {
@@ -25,11 +19,15 @@
     	text-decoration: none;
     	&:hover {
 			color: $brand-color-blue;
-			//text-decoration: overline;
-			//font-size: 23px;
 			border-radius: 2px;
 			transition: all .5s ease;
 			text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
 		}
+        &:hover {
+            color: $brand-color-blue;
+            border-radius: 2px;
+            transition: all .5s ease;
+            text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);            
+        }
     }
 }

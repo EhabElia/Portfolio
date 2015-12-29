@@ -3,5 +3,8 @@
  * (margin/padding adjustments, background image, etc..)
  * ------------------------------------- */
  body {
- 	background-color: rgba(244, 244, 244, .4);
+ 	background-color: white;
+ 	h1 h2 h3 {
+ 		font-family: Roboto;
+ 	}
  }
