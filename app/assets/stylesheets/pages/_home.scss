@@ -3,8 +3,14 @@
  * (margin/padding adjustments, background image, etc..)
  * ------------------------------------- */
  body {
- 	background-color: white;
- 	h1 h2 h3 {
+ 	background: #9e9e9eff;
+ 	h1 h2 h3 p {
  		font-family: Roboto;
+ 	}
+ 	a {
+ 		color: black;
+ 		&:hover {
+ 			text-decoration: none;
+ 		}
  	}
  }

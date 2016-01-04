@@ -1,5 +1,6 @@
 .contact {
 	width: 100%;
+	min-height: 600px;
 	text-align: right;
 	color: black;
 	h2 {
@@ -7,18 +8,20 @@
 		line-height: 60px;
 		line-height: 100px;
 		font-family: Roboto;
-		margin-right: 	-70px;
-	}
-	.container {
-		margin: 80px 0;
+		//margin-right: 	-70px;
 	}
 	a {
-		color: black;
-		text-decoration: none;
-		padding: 20px;
+		
 	}
 	i {
-		font-size: 60px;
+		font-size: 80px;
 		line-height: 150px;
+		&:hover {
+    		color: $brand-color-blue;
+    		//text-decoration: overline;
+    		font-size: 78px;
+    		transition: all .7s ease;
+    		text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
+    	}
 	}
 }
