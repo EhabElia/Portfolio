@@ -32,10 +32,11 @@
 }
 .hightlight {
 			color: $brand-color-blue;
-			text-shadow: 1px 1px 1px rgba(147, 5, 24, .8);
+			text-shadow: 2px 1px 1px rgba(147, 5, 24, 1);
 			font-family: Indie Flower;
 			font-size: 40px;
 			padding: 0px;
+	 		font-weight: 600;
 		}
 
 

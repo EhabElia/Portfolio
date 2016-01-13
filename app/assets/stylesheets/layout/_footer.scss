@@ -1,36 +1,29 @@
 .footer {
 	width: 100%;
-    //position: fixed;
     bottom: 0;
-    //background: white;
     text-align: right;
-    padding-right: 5px;
+    .row {
+        margin-right: 70px;
+    }
     p {
     	font-family: Indie Flower;
         padding-right: 15px;
     }
     ul {
     	margin-top: 10px;
+        font-size: 24px;
         margin-left: 0px;
-    	font-size: 24px;
     }
     li {
     	display: inline;
     }
     a {
-    	color: black;
-    	text-decoration: none;
     	&:hover {
+            font-size: 23.5px;
 			color: $brand-color-blue;
 			border-radius: 2px;
 			transition: all .5s ease;
 			text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
 		}
-        &:hover {
-            color: $brand-color-blue;
-            border-radius: 2px;
-            transition: all .5s ease;
-            text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);            
-        }
     }
 }

@@ -6,19 +6,19 @@
 	h2 {
 		font-size: 48px;
 		line-height: 60px;
-		line-height: 100px;
+		line-height: 200px;
 		font-family: Roboto;
-		//margin-right: 	-70px;
+		//margin-right: 100px;
 	}
-	a {
-		
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	i {
 		font-size: 80px;
-		line-height: 150px;
+		line-height: 100px;
 		&:hover {
     		color: $brand-color-blue;
-    		//text-decoration: overline;
     		font-size: 78px;
     		transition: all .7s ease;
     		text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
