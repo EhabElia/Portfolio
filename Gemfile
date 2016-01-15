@@ -13,6 +13,9 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
+gem 'coffee-rails'
+gem 'turbolinks', '~> 2.5', '>= 2.5.3'
+gem 'social-share-button', '~> 0.1.6'
 
 group :development, :test do
   gem 'binding_of_caller'

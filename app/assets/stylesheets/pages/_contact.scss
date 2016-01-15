@@ -4,6 +4,7 @@
 	text-align: right;
 	color: black;
 	h2 {
+		color: $red;
 		font-size: 48px;
 		line-height: 60px;
 		line-height: 200px;
@@ -18,10 +19,24 @@
 		font-size: 80px;
 		line-height: 100px;
 		&:hover {
-    		color: $brand-color-blue;
-    		font-size: 78px;
-    		transition: all .7s ease;
-    		text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
-    	}
+    		color: $red;
+    		font-size: 77px;
+    		transition: all .7s ease;}
 	}
+	a:focus {
+		color: black;
+		text-decoration: none;
+	}
+	// .fa-twitter {
+	// 	color: #6EA763;
+	// }
+	// .fa-facebook {
+	// 	color: #46629E;
+	// }
+	// .fa-linkedin {
+	// 	color: #1582B9;
+	// }
+	// .fa-envelope {
+	// 	color: orange;
+	// }
 }
