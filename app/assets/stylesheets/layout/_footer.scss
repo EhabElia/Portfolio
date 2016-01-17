@@ -25,5 +25,9 @@
 			transition: all .5s ease;
 			text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
 		}
+            &:focus {
+            color: $brand-color-blue;
+            text-decoration: none;
+        }
     }
 }
