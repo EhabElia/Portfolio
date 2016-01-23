@@ -5,12 +5,12 @@ class PagesController < ApplicationController
   def welcome
   end
 
-  def portfolio
+  def portfolio_ehab_elia
   end
 
-  def about
+  def about_ehab_elia
   end
 
-  def contact
+  def contact_ehab_elia
   end
 end
