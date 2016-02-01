@@ -18,24 +18,24 @@
     }
     .panel-group {
         margin-top: 10px;
+    }
     
-        .fa-align-right {
-            color: $brand-color-red;
-            font-size: 20px;
-        }
-        li {
-            font-weight: 500;
-            font-size: 14px;
-            color: $brand-color-blue;
-            a {
-            text-decoration: none;
-            transition: all .3s ease;
-            
-                &:hover {
-                    color: $brand-color-blue;
-                    transition: all .4s ease;
-                }
-            }  
-        }
-    }  
+    .fa-align-right {
+        color: $brand-color-red;
+        font-size: 20px;
+    }
+    li {
+        font-weight: 500;
+        font-size: 16px;
+        
+        a {
+        text-decoration: none;
+        transition: all .3s ease;
+        
+            &:hover {
+                color: $brand-color-red;
+                transition: all .4s ease;
+            }
+        }  
+    } 
 }

@@ -11,22 +11,21 @@
         margin-right: 15px;
     }
     ul {
-    	//margin-top: 10px;
         font-size: 20px;
         margin-left: 0px;
     }
     li {
     	display: inline;
     }
-    a {
+    .fa {
     	&:hover {
-			color: $brand-color-blue;
-			border-radius: 2px;
+			color: $brand-color-red;
+			//border-radius: 2px;
 			transition: all .4s ease;
-			text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
+			//text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
 		}
             &:focus {
-            color: $brand-color-blue;
+            color: $brand-color-red;
             text-decoration: none;
         }
     }
