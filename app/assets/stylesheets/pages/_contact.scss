@@ -1,26 +1,21 @@
 .contact {
 	width: 100%;
 	min-height: 650px;
-	text-align: right;
 	color: black;
 	h2 {
 		color: $red;
+		text-decoration: underline overline;
 		font-size: 40px;
 		line-height: 60px;
-		line-height: 200px;
+		line-height: 150px;
 		font-family: Roboto;
-		//margin-right: 100px;
-	}
-	.row {
-		margin-left: 0px;
-		margin-right: 0px;
 	}
 	i {
 		font-size: 80px;
-		line-height: 100px;
+		line-height: 150px;
+
 		&:hover {
     		color: $red;
-    		font-size: 79.5px;
     		transition: all .7s ease;}
 	}
 	a:focus {

@@ -19,13 +19,13 @@
     }
     .fa {
     	&:hover {
-			color: $brand-color-red;
+			color: $red;
 			//border-radius: 2px;
 			transition: all .4s ease;
 			//text-shadow: 1px 1px 1px rgba(70, 154, 224, .5);
 		}
             &:focus {
-            color: $brand-color-red;
+            color: $red;
             text-decoration: none;
         }
     }

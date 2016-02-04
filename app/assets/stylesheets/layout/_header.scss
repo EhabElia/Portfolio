@@ -22,19 +22,19 @@
     }
     
     .fa-align-right {
-        color: $brand-color-red;
+        color: $red;
         font-size: 20px;
         padding: 5px;
         transition: all .4s ease;
 
         &:hover {
             color: white;
-            background-color: $brand-color-red;
+            background-color: $red;
         }
 
         &:focus {
             color: white;
-            background-color: $brand-color-red;
+            background-color: $red;
         }
     }
     li {
@@ -46,12 +46,12 @@
         transition: all .4s ease;
         
             &:hover {
-                color: $brand-color-red;
+                color: $red;
                 transition: all .4s ease;
             }
 
             &:focus {
-                color: $brand-color-red;
+                color: $red;
                 transition: all .4s ease;
             }
         }  
