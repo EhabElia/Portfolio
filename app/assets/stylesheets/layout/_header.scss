@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     height: 60px;
+
     .panel-group {
         margin-top: 0px;
         margin-bottom: 0px;
@@ -23,6 +24,18 @@
     .fa-align-right {
         color: $brand-color-red;
         font-size: 20px;
+        padding: 5px;
+        transition: all .4s ease;
+
+        &:hover {
+            color: white;
+            background-color: $brand-color-red;
+        }
+
+        &:focus {
+            color: white;
+            background-color: $brand-color-red;
+        }
     }
     li {
         font-weight: 500;
@@ -30,9 +43,14 @@
         
         a {
         text-decoration: none;
-        transition: all .3s ease;
+        transition: all .4s ease;
         
             &:hover {
+                color: $brand-color-red;
+                transition: all .4s ease;
+            }
+
+            &:focus {
                 color: $brand-color-red;
                 transition: all .4s ease;
             }
