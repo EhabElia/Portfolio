@@ -17,6 +17,7 @@ gem 'coffee-rails'
 gem 'turbolinks', '~> 2.5', '>= 2.5.3'
 gem 'social-share-button', '~> 0.1.6'
 gem 'strict', '~> 0.2'
+gem 'sitemap_generator'
 
 group :development, :test do
   gem 'binding_of_caller'

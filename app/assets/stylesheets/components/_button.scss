@@ -1,22 +1,23 @@
 .btn-blue {
     padding: 13px;
     border-radius: 3px;
+    border: 1px solid #4292d6;
     font-family: Indie Flower;
     color: white;
     background: $brand-color-blue;
-    transition: all .7s ease;
+    transition: all .3s ease;
     font-size: 24px;
     
     &:hover {
 	color: $brand-color-blue;
 	background: white;
-	transition: all .7s ease;
+	transition: all .3s ease;
     text-decoration: none;
     }
     &:focus {
         color: $brand-color-blue;
         background: white;
-        transition: all .7s ease;
+        transition: all .3s ease;
         text-decoration: none;        
     }
 }
