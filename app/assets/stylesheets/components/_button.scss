@@ -7,26 +7,19 @@
     background: $brand-color-blue;
     transition: all .3s ease;
     font-size: 24px;
-    
+    font-weight: 900;
+
     &:hover {
 	color: $brand-color-blue;
 	background: white;
 	transition: all .3s ease;
     text-decoration: none;
     }
+    
     &:focus {
         color: $brand-color-blue;
         background: white;
         transition: all .3s ease;
         text-decoration: none;        
     }
-}
-.right {
-    position: absolute;
-    right: 200px;
-}
-
-.Center {
-   margin: 0 auto ;
-   width: 100px ;
 }
