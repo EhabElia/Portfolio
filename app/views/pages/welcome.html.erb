@@ -4,48 +4,8 @@
 			<div class="container">
 				<h2>
 					Hello. My name is <span class="hightlight">ehab elia B.</span><br>I have creative ideas and am building<br> The First Incubator for Developers<br>
-  					<!--<%= link_to "Join Us", new_user_registration_path, class: "btn-blue", id:"login-modal" %> -->
-					<!-- <a class="btn-blue center" href="/contact_ehab_elia">Join us</a> -->
-					<button class='btn-blue btn' data-toggle='modal' data-target="#login-modal"> Join Us </button>
+					<a id="btn-blue" href="/contact_ehab_elia">Join me</a>
 				</h2>	
-			</div>
-			<div data-backdrop="static" class="modal fade" id="login-modal" tabindex="-1" role="dialog"  aria-labelledby="myModalLabel" aria-hidden="true">
-			  <div class="modal-dialog">
-			    <div class="modal-content" id="modal-style">
-			        <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			         <span aria-hidden="true">&times;</span>
-			        </button>
-			        <div class="row">
-			          <div class="col-xs-12 col-md-8">
-			            <h1 class="modal-title" id="myModalLabel">Stay tunned</h1>
-			          </div>
-			          <div class="col-xs-12 hidden-xs hidden-sm col-md-4">
-			            <%= image_tag "account.png", class: "landing_img" %>
-			          </div>
-			        </div>
-			        <div class="modal-body text-justify">
-			          <!-- Your signup form -->
-			         	<h2>Sign up</h2>
-						<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-						<%= f.error_notification %>
-
-				  		<div class="form-inputs">
-						    <%= f.input :email, required: true, autofocus: true %>
-						    <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
-						    <%= f.input :password_confirmation, required: true %>
-						</div>
-
-					 	<div class="form-actions">
-					    	<%= f.button :submit, "Sign up" %>
-					  	</div>
-						<% end %>
-
-<!-- 						<%= render "devise/shared/links" %> -->
-			        </div>
-			      </div>
-			    </div>
-			  </div>
 			</div>
 		</div>
 	</div>
