@@ -5,7 +5,7 @@ SitemapGenerator::Sitemap.create do
   # Put links creation logic here.
   add '/portfolio_ehab_elia'
   add '/about_ehab_elia'
-  add '/contact'
+  add '/contact_ehab_elia'
   #
   # The root path '/' and sitemap index file are added automatically for you.
   # Links are added to the Sitemap in the order they are specified.
